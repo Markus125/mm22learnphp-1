@@ -211,6 +211,8 @@
             </svg>
           </a>
           <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+          <a class="btn btn-sm btn-primary" href="#">Sign up</a>
+
         </div>
       </div>
     </header>
