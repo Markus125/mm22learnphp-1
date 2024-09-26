@@ -10,9 +10,9 @@ class PublicController
 {
     public function index()
     {
-        
-        $posts = Post::all();
-        view('index', compact('posts'));
+        setcookie('mycookie', 'tasty');
+        dd($_COOKIE);
+        //view('index', compact('posts'));
         //view('index', ['posts' => $posts]);
     }
 
